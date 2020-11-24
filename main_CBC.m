@@ -11,7 +11,7 @@ addpath('src/');
 
 %% Load data
 
-load Force_data.mat;                     % CL,CL,CL_dot,t
+load Force_data.mat;                     % CL,CD,CL_dot,t
 M          = 0.3;                        % Mach number
 Re         = 23000;                      % Reynolds number
 width      = 0.2;                        % width in spanwise direction
